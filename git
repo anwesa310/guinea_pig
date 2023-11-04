@@ -1,0 +1,11 @@
+git init
+
+git remote add origin bla blahhh bla < remote url >
+
+git add .
+
+git add -A 
+
+git commit -m "message"
+
+git checkout -b <branchName> origin/<branchName>
