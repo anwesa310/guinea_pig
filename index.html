@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="input.css">
     <title>fleuriste</title>
     <style>
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
+        .some-scroll::-webkit-scrollbar,
+        body::-webkit-scrollbar {
+            width: 12px;
+            /* width of the entire scrollbar */
+        }
 
-body::-webkit-scrollbar-track {
-  background: violet;        /* color of the tracking area */
-}
+        .some-scroll::-webkit-scrollbar-track,
+        body::-webkit-scrollbar-track {
+            background: violet;
+            /* color of the tracking area */
+        }
 
-body::-webkit-scrollbar-thumb {
-  background-color: blueviolet;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid rosybrown;  /* creates padding around scroll thumb */
-}
+        .some-scroll::-webkit-scrollbar-thumb,
+        body::-webkit-scrollbar-thumb {
+            background-color: blueviolet;
+            /* color of the scroll thumb */
+            border-radius: 20px;
+            /* roundness of the scroll thumb */
+            border: 3px solid rosybrown;
+            /* creates padding around scroll thumb */
+        }
     </style>
 </head>
 
@@ -29,16 +37,20 @@ body::-webkit-scrollbar-thumb {
     <nav class="bg-gradient-to-r from-rose-400 to-rose-700 font-bold  text-white h-[80px] flex justify-between">
         <p class="font-extrabold px-2 italic text-3xl flex items-center">FLEURISTE</p>
         <ul class="flex items-center justify-end space-x-3">
-           <button class="cursor pointer rounded-lg bg-black  border border-2 border-black hover:bg-gradient-to-r from  px-2 py-2">Log In</button>
-            <button class="cursor pointer rounded-lg bg-black border border-2 border-black text-white px-2 py-2  hover:bg-gradient-to-r ">Sign
+            <button
+                class="cursor pointer rounded-lg bg-black  border border-2 border-black hover:bg-gradient-to-r from  px-2 py-2">Log
+                In</button>
+            <button
+                class="cursor pointer rounded-lg bg-black border border-2 border-black text-white px-2 py-2  hover:bg-gradient-to-r ">Sign
                 Up</button>
-                </ul>
+        </ul>
     </nav>
-    <div class="items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 h-[400px] text-8xl font-extrabold italic text-white mb-3 ">
-        
+    <div
+        class="flex items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 h-[400px] text-8xl font-extrabold italic text-white mb-3 ">
+        Hello diwali
     </div>
     <div class="flex mb-10">
-        <div class="flex space-x-4 overflow-x-auto mx-2 ">
+        <div class="flex space-x-4 overflow-x-auto mx-2 some-scroll">
             <button
                 class="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 px-7 py-2 font-semibold text-lg rounded-3xl border border-1 border-black hover:bg-blue-600">Fragnance</button>
             <button
@@ -110,8 +122,8 @@ body::-webkit-scrollbar-thumb {
                 <img src="guinea.jpg" class="min-w-[300px] " alt="">
                 <p class="font-semibold bg-fuchsia-300">hhhhhh</p>
             </div>
-           
-           
+
+
             <div class="cursor-pointer w-[300px] border border-1 mx-3 p-0 border-black ">
                 <img src="guinea.jpg" class="min-w-[300px] " alt="">
                 <p class=" font-semibold bg-fuchsia-300">hhhhhh</p>
